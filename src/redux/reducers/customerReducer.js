@@ -1,6 +1,6 @@
 const initialState = [
-  { id: 0, name: "User Name", email: "email@email.com", phone: 1234567890,  },
-  { id: 1, name: "Test Name", email: "test@test.com", phone: 4567891230,  },
+  { id: 0, name: "User Name", email: "email@email.com", phone: 1234567890, address: "Tangerang" },
+  { id: 1, name: "Test Name", email: "test@test.com", phone: 4567891230, address: "Bekasi" },
 ];
 
 export const customerReducer = (state = initialState, action) => {
